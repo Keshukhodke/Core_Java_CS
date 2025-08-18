@@ -8,6 +8,18 @@ public class Cyber1
         System.out.println ("Inside Cyber 1");
     }
 }
+class Sucess
+{
+
+}
+class training
+{
+
+}
+
+  // is it posssible to have multiple means multiple classes ?
+ // ans :- yes
+
 
 
 // it is mandatory to save file name as class name when class is public.
