@@ -2,7 +2,14 @@
 class Variables_Demo
 {
     public static void main(String[] args) {
-        byte x=10;
+
+// evey variable goes to stages
+// 1 declration
+// 2 intialization
+
+        byte x=10;  // we can intailize x =10;
+                    // it is possible to intialize and declration in one line
+
         System.out.println(x);
     }
 }
@@ -12,5 +19,7 @@ class Variables_Demo
 // type  varable = data;
 // while priting the variable we cannot use ""
 // we use double quotes only when we want to display a message or senstences or words.
+
+
 
 
