@@ -5,7 +5,7 @@ class Demo4
 		
 		byte x =10;
 		byte y = 20;
-		byte z=40;
+		byte z= 40;
 		
 		System.out.println(x);
 		System.out.println(y);

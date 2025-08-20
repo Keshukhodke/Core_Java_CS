@@ -5,12 +5,18 @@ class Demo6
 		
 		byte x =10;
 		byte y = 20;
-		z= x+y;
-		y= z-x;
 		
 		
+		System.out.println("before swapping"+x);
+		System.out.println("before swapping"+y);
+	  // before 
+		byte temp = x;
+		x=y;
+		y=temp;
+	
+			
 		
-		System.out.println(x);
-		System.out.println(y);
+		System.out.println("after swapping:- "+x);
+		System.out.println("after  swapping :-"+y);
 	}
 }
