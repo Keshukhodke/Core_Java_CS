@@ -1,14 +1,12 @@
-package Do_While_02_09_25;
-
-public class Transfter_statment1 {
+public class BreakExample {
     public static void main(String[] args) {
-        int i =3;
-        if (i==3) {
-            System.out.println("the value f 1 is " + 1);
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5) {
+                // Break statement exits the loop when i is 5
+                break;
+            }
+            System.out.println(i);
         }
-        //break;
-
-               // System.out.println("the value f 1 is " + 1);
-
+        System.out.println("Loop ended due to break at i = 5");
     }
 }
