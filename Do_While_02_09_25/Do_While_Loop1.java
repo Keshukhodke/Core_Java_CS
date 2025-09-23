@@ -5,8 +5,6 @@ public class Do_While_Loop1 {
         System.out.println("start");
         int i =5;
         do {
-
-
             System.out.println("insidide do while :- "+i);
             i++;
         }
